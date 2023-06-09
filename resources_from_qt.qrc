@@ -1,0 +1,36 @@
+<RCC>
+  <qresource prefix="Neck">
+    <file>resource/neck/neck1.png</file>
+    <file>resource/neck/neck2.png</file>
+    <file>resource/neck/neck3.png</file>
+  </qresource>
+  <qresource prefix="Trunk">
+    <file>resource/trunk/trunk1.png</file>
+    <file>resource/trunk/trunk2.png</file>
+    <file>resource/trunk/trunk3.png</file>
+    <file>resource/trunk/trunk4.png</file>
+    <file>resource/trunk/trunk5.png</file>
+  </qresource>
+  <qresource prefix="Legs">
+    <file>resource/legs/legs1.png</file>
+    <file>resource/legs/legs2.png</file>
+    <file>resource/legs/legs3.png</file>
+    <file>resource/legs/legs4.png</file>
+    <file>resource/legs/legs5.png</file>
+  </qresource>
+  <qresource prefix="Upper Arm">
+    <file>resource/upperarms/upperarms1.png</file>
+    <file>resource/upperarms/upperarms2.png</file>
+    <file>resource/upperarms/upperarms3.png</file>
+    <file>resource/upperarms/upperarms4.png</file>
+    <file>resource/upperarms/upperarms5.png</file>
+  </qresource>
+  <qresource prefix="Lower Arm">
+    <file>resource/lowerarms/lowerarms1.png</file>
+    <file>resource/lowerarms/lowerarms2.png</file>
+  </qresource>
+  <qresource prefix="Wrist">
+    <file>resource/wrist/wrist1.png</file>
+    <file>resource/wrist/wrist2.png</file>
+  </qresource>
+</RCC>

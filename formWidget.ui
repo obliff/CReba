@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>726</width>
+    <height>395</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(249, 246, 255);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="autoFillBackground">
+      <bool>true</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>706</width>
+        <height>375</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTabBar::tab {
+	background-color: rgb(222, 217, 238);
+    color: black;
+}
+QTabBar::tab:selected {
+   	background-color: rgb(204, 193, 238);
+    color: black;
+}</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QStackedWidget" name="stackedWidget">
+         <property name="currentIndex">
+          <number>3</number>
+         </property>
+         <widget class="QWidget" name="page_1">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_3" stretch="0,5,1">
+           <item alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="page1_label">
+             <property name="text">
+              <string>1</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="neck_groupbox">
+             <property name="title">
+              <string>Neck</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_4" stretch="3,1">
+              <item>
+               <layout class="QHBoxLayout" name="nackimg_hbox">
+                <property name="spacing">
+                 <number>50</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QLabel" name="neckimg_1">
+                  <property name="styleSheet">
+                   <string notr="true">border-image: url(:/Neck/resource/neck/neck1.png);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="neckimg_2">
+                  <property name="styleSheet">
+                   <string notr="true">border-image: url(:/Neck/resource/neck/neck2.png);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="neckimg_3">
+                  <property name="styleSheet">
+                   <string notr="true">border-image: url(:/Neck/resource/neck/neck3.png);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="neckbtn_hbox">
+                <item alignment="Qt::AlignHCenter">
+                 <widget class="QRadioButton" name="neckbtn_1">
+                  <property name="text">
+                   <string>0-20° Flexion</string>
+                  </property>
+                 </widget>
+                </item>
+                <item alignment="Qt::AlignHCenter">
+                 <widget class="QRadioButton" name="neckbtn_2">
+                  <property name="text">
+                   <string>in Extension</string>
+                  </property>
+                 </widget>
+                </item>
+                <item alignment="Qt::AlignHCenter">
+                 <widget class="QRadioButton" name="neckbtn_3">
+                  <property name="text">
+                   <string>20° Flexion</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="neckadj_groupBox">
+             <property name="title">
+              <string>Adjustment</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_5">
+              <item>
+               <widget class="QCheckBox" name="neck_adjbtn_1">
+                <property name="text">
+                 <string>Twisted or Side-Bending</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_2">
+          <layout class="QVBoxLayout" name="verticalLayout_6" stretch="0,5,1">
+           <item alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="page2_label">
+             <property name="text">
+              <string>2</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="trunk_groupbox">
+             <property name="title">
+              <string>Trunk</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_7" stretch="3,1">
+              <item>
+               <layout class="QHBoxLayout" name="trunkimg_hbox">
+                <item>
+                 <widget class="QLabel" name="trunkimg_1">
+                  <property name="autoFillBackground">
+                   <bool>false</bool>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">border-image: url(:/Trunk/resource/trunk/trunk1.png);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="trunkimg_2">
+                  <property name="styleSheet">
+                   <string notr="true">border-image: url(:/Trunk/resource/trunk/trunk2.png);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="trunkimg_3">
+                  <property name="styleSheet">
+                   <string notr="true">border-image: url(:/Trunk/resource/trunk/trunk3.png);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="trunkimg_4">
+                  <property name="styleSheet">
+                   <string notr="true">border-image: url(:/Trunk/resource/trunk/trunk4.png);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="trunkimg_5">
+                  <property name="styleSheet">
+                   <string notr="true">border-image: url(:/Trunk/resource/trunk/trunk5.png);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="trunkbtn_hbox">
+                <item alignment="Qt::AlignHCenter">
+                 <widget class="QRadioButton" name="trunkbtn_1">
+                  <property name="text">
+                   <string>Standing Still</string>
+                  </property>
+                 </widget>
+                </item>
+                <item alignment="Qt::AlignHCenter">
+                 <widget class="QRadioButton" name="trunkbtn_2">
+                  <property name="text">
+                   <string>in Extension</string>
+                  </property>
+                 </widget>
+                </item>
+                <item alignment="Qt::AlignHCenter">
+                 <widget class="QRadioButton" name="trunkbtn_3">
+                  <property name="text">
+                   <string>0°-20° Flexion</string>
+                  </property>
+                 </widget>
+                </item>
+                <item alignment="Qt::AlignHCenter">
+                 <widget class="QRadioButton" name="trunkbtn_4">
+                  <property name="text">
+                   <string>20°-60° Flexion</string>
+                  </property>
+                 </widget>
+                </item>
+                <item alignment="Qt::AlignHCenter">
+                 <widget class="QRadioButton" name="trunkbtn_5">
+                  <property name="text">
+                   <string>&gt;60° Flexion</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="trunkadj_groupBox">
+             <property name="title">
+              <string>Adjustment</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_8">
+              <item>
+               <widget class="QCheckBox" name="trunkadj_1">
+                <property name="text">
+                 <string>Twisted or Side Bending</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page">
+          <layout class="QVBoxLayout" name="verticalLayout_10" stretch="0,2">
+           <item alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="page3_label">
+             <property name="text">
+              <string>3</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QSplitter" name="page3_splitter">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <widget class="QGroupBox" name="legs_groupbox">
+              <property name="title">
+               <string>Legs</string>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_9" stretch="3,1">
+               <item>
+                <layout class="QHBoxLayout" name="legsimg_hbox">
+                 <item>
+                  <widget class="QLabel" name="legsimg_1">
+                   <property name="styleSheet">
+                    <string notr="true">border-image: url(:/Legs/resource/legs/legs1.png);</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="legsimg_2">
+                   <property name="styleSheet">
+                    <string notr="true">border-image: url(:/Legs/resource/legs/legs2.png);</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="legsbtn_hbox">
+                 <item alignment="Qt::AlignHCenter|Qt::AlignTop">
+                  <widget class="QRadioButton" name="legsbtn_1">
+                   <property name="text">
+                    <string>Balanced</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item alignment="Qt::AlignHCenter|Qt::AlignTop">
+                  <widget class="QRadioButton" name="legsbtn_2">
+                   <property name="text">
+                    <string>Unbalanced</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QGroupBox" name="legsadj_groupbox">
+              <property name="title">
+               <string>Adjustment</string>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_13" stretch="3,1">
+               <item>
+                <layout class="QHBoxLayout" name="legsadjimg_hbox">
+                 <item>
+                  <widget class="QLabel" name="legsimg_3">
+                   <property name="styleSheet">
+                    <string notr="true">border-image: url(:/Legs/resource/legs/legs3.png);</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="legsimg_4">
+                   <property name="styleSheet">
+                    <string notr="true">border-image: url(:/Legs/resource/legs/legs4.png);</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="legsimg_5">
+                   <property name="styleSheet">
+                    <string notr="true">border-image: url(:/Legs/resource/legs/legs5.png);</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="legsadjbtn_hbox">
+                 <item alignment="Qt::AlignHCenter|Qt::AlignTop">
+                  <widget class="QRadioButton" name="legsadj_1">
+                   <property name="text">
+                    <string>None</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item alignment="Qt::AlignHCenter|Qt::AlignTop">
+                  <widget class="QRadioButton" name="legsadj_2">
+                   <property name="text">
+                    <string>30°-60° Degrees Flexion</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item alignment="Qt::AlignHCenter|Qt::AlignTop">
+                  <widget class="QRadioButton" name="legsadj_3">
+                   <property name="text">
+                    <string>&gt;60° Flexion</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_4">
+          <layout class="QVBoxLayout" name="verticalLayout_11" stretch="0,5,1">
+           <item alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="page4_label">
+             <property name="text">
+              <string>4</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="upperarm_groupbox">
+             <property name="title">
+              <string>Upper Arm</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_12" stretch="3,1">
+              <item>
+               <layout class="QHBoxLayout" name="upperarmimg_hbox">
+                <item>
+                 <widget class="QLabel" name="upperarmimg_1">
+                  <property name="styleSheet">
+                   <string notr="true">border-image: url(:/Upper Arm/resource/upperarms/upperarms1.png);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="upperarmimg_2">
+                  <property name="styleSheet">
+                   <string notr="true">border-image: url(:/Upper Arm/resource/upperarms/upperarms2.png);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="upperarmimg_3">
+                  <property name="styleSheet">
+                   <string notr="true">border-image: url(:/Upper Arm/resource/upperarms/upperarms3.png);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="upperarmimg_4">
+                  <property name="styleSheet">
+                   <string notr="true">border-image: url(:/Upper Arm/resource/upperarms/upperarms4.png);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="upperarmimg_5">
+                  <property name="styleSheet">
+                   <string notr="true">border-image: url(:/Upper Arm/resource/upperarms/upperarms5.png);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="upperarmbtn_hbox">
+                <item alignment="Qt::AlignHCenter">
+                 <widget class="QRadioButton" name="upperarmbtn_1">
+                  <property name="text">
+                   <string>0°-20° Extension/Flexion</string>
+                  </property>
+                 </widget>
+                </item>
+                <item alignment="Qt::AlignHCenter">
+                 <widget class="QRadioButton" name="upperarmbtn_2">
+                  <property name="text">
+                   <string>&gt;20° Extension</string>
+                  </property>
+                 </widget>
+                </item>
+                <item alignment="Qt::AlignHCenter">
+                 <widget class="QRadioButton" name="upperarmbtn_3">
+                  <property name="text">
+                   <string>20°-45° Flexion</string>
+                  </property>
+                 </widget>
+                </item>
+                <item alignment="Qt::AlignHCenter">
+                 <widget class="QRadioButton" name="upperarmbtn_4">
+                  <property name="text">
+                   <string>45°-90° Flexion</string>
+                  </property>
+                 </widget>
+                </item>
+                <item alignment="Qt::AlignHCenter">
+                 <widget class="QRadioButton" name="upperarmbtn_5">
+                  <property name="autoFillBackground">
+                   <bool>false</bool>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true"/>
+                  </property>
+                  <property name="text">
+                   <string>&gt;90° Flexion</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="upperarmadj_groupbox">
+             <property name="title">
+              <string>Adjustment</string>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_2">
+              <item>
+               <widget class="QCheckBox" name="upperarmadj_1">
+                <property name="text">
+                 <string>Abducted Upper Arm</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QCheckBox" name="upperarmadj_2">
+                <property name="text">
+                 <string>Raised Shoulder</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QCheckBox" name="upperarmadj_3">
+                <property name="text">
+                 <string>Supported Arm/Leaning Position</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_5">
+          <layout class="QVBoxLayout" name="verticalLayout_15" stretch="0,5">
+           <item alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="page5_label">
+             <property name="text">
+              <string>5</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QSplitter" name="splitter">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <widget class="QGroupBox" name="lowerarm_groupbox">
+              <property name="title">
+               <string>Lower Arm</string>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_16" stretch="3,1">
+               <item>
+                <layout class="QHBoxLayout" name="lowerarmimg_hbox">
+                 <property name="spacing">
+                  <number>100</number>
+                 </property>
+                 <item>
+                  <widget class="QLabel" name="lowerarmimg_1">
+                   <property name="styleSheet">
+                    <string notr="true">border-image: url(:/Lower Arm/resource/lowerarms/lowerarms1.png);</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="lowerarmimg_2">
+                   <property name="styleSheet">
+                    <string notr="true">border-image: url(:/Lower Arm/resource/lowerarms/lowerarms2.png);</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="lowerarmbtn_hbox">
+                 <item alignment="Qt::AlignHCenter">
+                  <widget class="QRadioButton" name="lowerarmbtn_1">
+                   <property name="text">
+                    <string>60°-100° Flexion</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item alignment="Qt::AlignHCenter">
+                  <widget class="QRadioButton" name="lowerarmbtn_2">
+                   <property name="text">
+                    <string>&lt;60° Flex/&gt;100°Flex</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_6">
+          <layout class="QVBoxLayout" name="verticalLayout_14">
+           <item alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="page6_label">
+             <property name="text">
+              <string>6</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="wrist_groupbox">
+             <property name="title">
+              <string>Wrist</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_17" stretch="3,1">
+              <item>
+               <layout class="QHBoxLayout" name="wristimg_hbox">
+                <property name="spacing">
+                 <number>100</number>
+                </property>
+                <item>
+                 <widget class="QLabel" name="wristimg_1">
+                  <property name="styleSheet">
+                   <string notr="true">border-image: url(:/Wrist/resource/wrist/wrist1.png);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="wristimg_2">
+                  <property name="styleSheet">
+                   <string notr="true">border-image: url(:/Wrist/resource/wrist/wrist2.png);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="wristbtn_hbox">
+                <item alignment="Qt::AlignHCenter">
+                 <widget class="QRadioButton" name="wristbtn_1">
+                  <property name="text">
+                   <string>0°-15° Extend/Flex</string>
+                  </property>
+                 </widget>
+                </item>
+                <item alignment="Qt::AlignHCenter">
+                 <widget class="QRadioButton" name="wristbtn_2">
+                  <property name="text">
+                   <string>&gt;15° Extend/Flex</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="wrist_groupbox_2">
+             <property name="title">
+              <string>Adjustment</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_22">
+              <item>
+               <widget class="QCheckBox" name="wristadj_1">
+                <property name="text">
+                 <string>Bent Wrist</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_7">
+          <layout class="QVBoxLayout" name="verticalLayout_19" stretch="0,1,0,0">
+           <item alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="page7_label">
+             <property name="text">
+              <string>7</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="forceload_groupbox">
+             <property name="title">
+              <string>Force/Load  Score</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_18">
+              <item>
+               <layout class="QHBoxLayout" name="forcebtn_hbox">
+                <item>
+                 <widget class="QRadioButton" name="forcebtn_1">
+                  <property name="text">
+                   <string>&lt;5 kg</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="forcebtn_2">
+                  <property name="text">
+                   <string>5-10 kg</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="forcebtn_3">
+                  <property name="text">
+                   <string>&gt;10  kg</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <widget class="QCheckBox" name="forceadj_1">
+                <property name="text">
+                 <string>Shock Force, Rapid Buildup, or Sudden Exertion</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="coupling_groupbox">
+             <property name="title">
+              <string>Coupling</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_21">
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout">
+                <item>
+                 <widget class="QRadioButton" name="couplingbtn_1">
+                  <property name="text">
+                   <string>Good Handling</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="couplingbtn_2">
+                  <property name="text">
+                   <string>Acceptable Handling</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="couplingbtn_3">
+                  <property name="text">
+                   <string>Poor Handling</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="couplingbtn_4">
+                  <property name="text">
+                   <string>Unacceptable Handling</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="activity_groupbox">
+             <property name="title">
+              <string>Activity Score</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_20">
+              <item>
+               <layout class="QVBoxLayout" name="activity_hbox">
+                <item>
+                 <widget class="QCheckBox" name="activitybtn_1">
+                  <property name="text">
+                   <string>1 or more body parts are held for longer than 1 minute (static)</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QCheckBox" name="activitybtn_2">
+                  <property name="text">
+                   <string>Repeated small range actions, such as repeating an action more than 4x per minute (except walking)</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QCheckBox" name="activitybtn_3">
+                  <property name="text">
+                   <string>Action causes rapid large range changes in posture or unstable base</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="activitybtn_hbox" stretch="1,1,3,1">
+         <property name="spacing">
+          <number>20</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="clearbtn">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: #ded9ee; 
+}
+
+QPushButton:hover {
+    background-color: #cbc1ee;
+}</string>
+           </property>
+           <property name="text">
+            <string>Clear</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="historybtn">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: #ded9ee; 
+}
+
+QPushButton:hover {
+    background-color: #cbc1ee;
+}</string>
+           </property>
+           <property name="text">
+            <string>Show History</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="calculatebtn">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: #ded9ee; 
+}
+
+QPushButton:hover {
+    background-color: #cbc1ee;
+}</string>
+           </property>
+           <property name="text">
+            <string>Calculate REBA Score</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="pagechange_hbox">
+           <property name="spacing">
+            <number>3</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="prevBtn">
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: #ded9ee; 
+}
+
+QPushButton:hover {
+    background-color: #cbc1ee;
+}</string>
+             </property>
+             <property name="text">
+              <string>&lt;&lt;&lt;</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="nextBtn">
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: #ded9ee; 
+}
+
+QPushButton:hover {
+    background-color: #cbc1ee;
+}</string>
+             </property>
+             <property name="text">
+              <string>&gt;&gt;&gt;</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="resources_from_qt.qrc"/>
+ </resources>
+ <connections/>
+</ui>
